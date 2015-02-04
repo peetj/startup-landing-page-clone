@@ -49,10 +49,63 @@ table {
 
 body {
 background-color: LightGray;
+/*Topography Decleration*/
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+
+}
+.masthead {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 2em;
+    background-color: white;
 
 }
 
-div{
+    .main-navs {
 
-    border: 1px broken Chocolate;
+        text-align: center;
+        padding: 0 2em;
+
 }
+
+img{
+    margin-left: 15em;
+    margin-top: 2em;
+    padding-bottom: -5em;
+
+}
+
+.navigation{
+        margin-top: -1.5em;
+        margin:0 auto;
+
+    }
+
+.navigation LI {
+    display: inline-block;
+    margin-bottom: 2em;
+    /**padding: 0 0.5em 0 2em;/*top right btm lft*/
+    margin: 0 0 2em 2em;
+}
+
+
+a {
+
+    color: #A4A4A4;
+     text-decoration: none;
+
+}
+.bold-link a {
+    color:black;
+
+}
+
+.blur-link a:hover {
+
+    color:black;
+}
+
+
+
+
