@@ -79,6 +79,13 @@ img{
 .navigation{
         margin-top: -1.5em;
         margin:0 auto;
+        width: 970px;
+    height: 70px;
+    margin: 0 auto;/*trick to make the .content inside the .top-navigation always centered.*/
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color:#838994;
+    letter-spacing: 0.03em;
 
     }
 

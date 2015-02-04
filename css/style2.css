@@ -48,13 +48,15 @@ table {
     border-spacing: 0;
 }
 
-/*The Main Css*/
+/*End of the Reset*/
+/*Start the Custome Styles*/
 
 /*Navigation Section*/
 .top-navigation {
-
 background-color:  #fff;
+
 }
+
 
 .top-navigation  > .content{
     width: 970px;
@@ -63,7 +65,43 @@ background-color:  #fff;
 
 }
 
+.top-navigation .logo{
+height: 70px;
+}
+
+.top-navigation .links{
+        float: right;
+        font-family: 'Roboto', sans-serif;
+        color:#838994;
+        letter-spacing: 0.03em;
+        margin-top: 25px;
+          font-size: 16px;
+       -webkit-font-smoothing: antialiased;
+}
+.top-navigation  .links  li {
+    display: inline-block;
+    margin-left: 25px;
+
+}
+
+.top-navigation  .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.top-navigation .links li:hover{
+    color: #333333;
+    cursor: pointer;
+
+
+}
+.content{
+     padding: 0 15px;
+
+}
+
 img {
-    margin-left: 14px;
+
     height: 70px;
 }
+
