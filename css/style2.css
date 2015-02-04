@@ -61,5 +61,9 @@ background-color:  #fff;
     height: 70px;
     margin: 0 auto;/*trick to make the .content inside the .top-navigation always centered.*/
 
+}
 
+img {
+    margin-left: 14px;
+    height: 70px;
 }
