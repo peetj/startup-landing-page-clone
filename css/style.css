@@ -114,5 +114,53 @@ a {
 }
 
 
+ body {
+background-size: 1280px 690px;
+background-repeat: no-repeat;
+margin-top: -4em;
+
+}
+
+.intro-content {
+    width: 970px;
+
+    margin: 0 auto;
+    color:white;
+    margin-top: 180px;
+    text-align: center;
+}
+.Intro-text {
+      font-family: 'Oxygen', sans-serif;
+        color:#ffff;
+        letter-spacing: 0.03em;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 36px;
+        margin-bottom: 0.5em;
+}
+
+.intro-moto{
+         font-family: 'Oxygen', sans-serif;
+        color:#ffff;
+        letter-spacing: 0.03em;
+        font-weight: 30;
+        font-size: 20px;
+}
+
+.btn-learnMore{
+    background-color:#FE642E;
+    border-radius:6px;
+     font-family: 'Oxygen', sans-serif;
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    width: 10em;
+    height: 3em;
+    margin-top: 12px;
+}
+
+
 
 
