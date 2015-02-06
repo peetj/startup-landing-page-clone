@@ -59,9 +59,8 @@ background-color:  #fff;
 
 
 .top-navigation  > .content{
-    width: 970px;
-    height: 70px;
-    margin: 0 auto;/*trick to make the .content inside the .top-navigation always centered.*/
+     height: 70px;
+
 
 }
 
@@ -97,6 +96,8 @@ height: 70px;
 }
 .content{
      padding: 0 15px;
+      width: 970px;
+    margin: 0 auto;/*trick to make the .content inside the .top-navigation always centered.*/
 
 }
 
@@ -104,4 +105,48 @@ img {
 
     height: 70px;
 }
+.introduction{
+
+    background-image: url('../images/first-background.jpg');
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+.introduction h1, h3{
+        color:white;
+        text-align: center;
+        font-weight: 300;
+}
+
+.introduction  h1{
+
+    margin-top: 17.rem;
+    font-size: 3.125rem;
+}
+.introduction h3{
+
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+}
+
+.introduction .buttons{
+
+color:white;
+text-align: center;
+margin-top: 1.563rem;
+width: 9.688rem;
+background-color: #f15a29;
+ border-color: #f15a29;
+text-shadow:none;
+border-style: none;
+border-radius: 4px;
+padding: 1rem 1.5rem;
+font-size: 1.125rem;
+cursor: pointer;
+
+}
+
+
 
