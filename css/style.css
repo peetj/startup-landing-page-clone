@@ -65,7 +65,7 @@ background-color: LightGray;
     background-color: #fff;
     width: 100%;
     position: fixed;
-    z-index: 9999;
+    z-index: 9999;/* to insure the nav stays on top of other elements */
 
 }
 .top-navigation  > .content  {
@@ -182,9 +182,14 @@ background-size: cover;*/
     overflow: hidden;
     padding-bottom: 5rem;
 }
+.three-icons .devices{
+    display: inline-block;
+    height: 4rem;
+
+}
 .three-icons .content {
     margin-top: 7.875rem;
-/*    color:#1d1e21;*/
+ color:#1d1e21;
     text-align: center;
 }
 .three-icons h2 {
@@ -195,16 +200,13 @@ background-size: cover;*/
 .three-icons .devices > li {
     width: 33.333333%;
     float: left;
+    margin:-top 20px;
 }
-.three-icons .devices {
+.three-icons .devices   h3{
     font-weight: 400;
-    font-size:  1.563rem;
-    margin:2.5rem 0 1.875rem;
+    font-size: 1.563rem;
+    margin: 2.5rem 0 1.875rem;
 }
-
-
-
-
 
 /*
 
@@ -214,8 +216,6 @@ background-size: cover;*/
     border: 1px solid black;
     box-sizing: border-box;
     height: 4em;
-
-
 
 }
 */
@@ -228,8 +228,6 @@ background-size: cover;*/
     float: left;
    margin: center;
         text-align: center;
-
-
 }
 .Big-icon-text{
     font-family: 'Oxygen', sans-serif;
@@ -239,8 +237,6 @@ background-size: cover;*/
         font-weight: 250;
         font-size: 3.125rem;
         padding-top: 30px;
-
-
 }
 .devices-icon{
     background-image: url('../images/icon-coffee.svg');
